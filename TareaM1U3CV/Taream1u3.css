@@ -1,0 +1,34 @@
+html{
+    background-color: beige;
+    border: 20px solid blanchedalmond;
+    box-sizing: border-box;
+}
+h1{
+    background-color: antiquewhite;
+    color: darkslategray;
+    text-align: center;
+}
+.destacados{
+    text-decoration: underline;
+}
+p{
+    color: darkslategrey;
+}
+ul{
+    color: darkslategrey;
+}
+
+#caja{
+    background-color: cornsilk;
+    border: 1px solid black;
+    width: fit-content;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.perfil img{
+    float: right;
+    margin-right: 30px;
+    width: 300px;
+    height: 200px;
+
+}
