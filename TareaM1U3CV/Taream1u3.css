@@ -1,3 +1,8 @@
+/* 
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Tiro Devanagari Hindi', serif;
+*/
+
 html{
     background-color: beige;
     border: 20px solid blanchedalmond;
@@ -7,28 +12,40 @@ h1{
     background-color: antiquewhite;
     color: darkslategray;
     text-align: center;
+    font-family: 'Tiro Devanagari Hindi', serif;
 }
 .destacados{
     text-decoration: underline;
+    font-family: 'Tiro Devanagari Hindi', serif;
 }
 p{
     color: darkslategrey;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 ul{
     color: darkslategrey;
 }
+h3{
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+h4{
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
 
 #caja{
     background-color: cornsilk;
-    border: 1px solid black;
+    border: 5px ridge #f5e1af;
     width: fit-content;
     padding-left: 2%;
     padding-right: 2%;
+    
 }
 .perfil img{
     float: right;
     margin-right: 30px;
     width: 300px;
     height: 200px;
+    box-shadow: 0px 0px 60px 24px rgba(0,0,0,0.16);
+    border-radius: 77px 77px 77px 77px;
 
 }
