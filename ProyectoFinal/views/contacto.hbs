@@ -1,0 +1,22 @@
+<article id="columnas2">
+    <section id="formula">
+        <section class="contacto">
+            <div class="contenido_contacto">
+                <form id="formulario" action="/contacto" method="post" class="formulario">
+                    <h3 class="tag"><span>CONTACTO</span></h3>
+                    <label for="nombre">Nombres y Apellido<span>*</span></label>
+                    <input name="nombre" required type="text" id="nombre" placeholder="Nombre Apellido">
+                    <label for="email">Correo electrónico<span>*</span></label>
+                    <input name="email" type="text" id="email" required placeholder="ejemplo@mail.com">
+                    <label for="telefono">Teléfono<span>*</span></label>
+                    <input name="tel" type="number" id="tel" required placeholder="Su número de teléfono">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" id="" cols="30" rows="10" required
+                        placeholder="Inserte su mensaje aqui"></textarea>
+                    <button type="enviar" class="btn primary full">enviar mensaje</button>
+                </form>
+                <p>{{message}}</p>
+            </div>
+        </section>
+    </section>
+</article>
