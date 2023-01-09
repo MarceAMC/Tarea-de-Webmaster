@@ -1,29 +1,41 @@
 <main>
-    <section id="galeria">
-        <img src="../images/img1.jpg" alt="galeria de imagenes">
-        <img src="../images/img2.jpg" alt="galeria de imagenes">
-        <img src="../images/img3.jpg" alt="galeria de imagenes">
-        <img src="../images/img4.jpg" alt="galeria de imagenes">
-        <img src="../images/img5.jpg" alt="galeria de imagenes">
-        <img src="../images/img6.jpg" alt="galeria de imagenes">
-        <img src="../images/img7.jpg" alt="galeria de imagenes">
-        <img src="../images/img8.jpg" alt="galeria de imagenes">
-        <img src="../images/img9.jpg" alt="galeria de imagenes">
+  <div class="">
+    <section>
+      <img src="../images/img1.jpg" alt="galeria de imagenes">
+      <img src="../images/img2.jpg" alt="galeria de imagenes">
+      <img src="../images/img3.jpg" alt="galeria de imagenes">
+      <img src="../images/img4.jpg" alt="galeria de imagenes">
+      <img src="../images/img5.jpg" alt="galeria de imagenes">
+      <img src="../images/img6.jpg" alt="galeria de imagenes">
+      <img src="../images/img7.jpg" alt="galeria de imagenes">
+      <img src="../images/img8.jpg" alt="galeria de imagenes">
+      <img src="../images/img9.jpg" alt="galeria de imagenes">
     </section>
     <section id="contenedor-principal">
-        <div id="contenedor-interno">
-            <img id="img-activa" src="/images/img1.jpg" alt="galeria de imagenes">
-            <button id="btn-cierra" type="button"><i class="fas fa-times"></i></button>
-            <button id="btn-retrocede" type="button">◄</button>
-            <button id="btn-adelanta" type="button">►</button>
-        </div>
-    </section>
-    <section id="textogaleria">
-      <div class="galetext">
-        <h2 class="titulogaleria">Galeria</h1>
-        <p class="parrafogaleria">En esta galeria se ven los planetas mas iconicos de Star Wars.</p>
-        <p id="parrafo2"><br>Marcelo A. Moreira Contreras<b>2022</b></p>
+      <div id="contenedor-interno">
+        <img id="img-activa" src="/images/img1.jpg" alt="galeria de imagenes">
+        <button id="btn-cierra" type="button"><i class="fas fa-times"></i></button>
+        <button id="btn-retrocede" type="button">◄</button>
+        <button id="btn-adelanta" type="button">►</button>
       </div>
     </section>
+    <div>
+      <h2 class="titulogaleria">Galeria</h2>
+      <p class="parrafogaleria">En esta galeria se ven los planetas mas iconicos de Star Wars.</p>
+    </div>
+  </div>
+  <br><br><br>
+  <h1>Novedades</h1>
+  {{#each novedades}}
+  <div class="novedades">
+    <h1>{{titulo}}</h1>
+    <h2>{{subtitulo}}</h2>
+    <p>{{cuerpo}}</p>
+    <hr>
+  </div>
+  {{/each}}
+  <p id="parrafo2"><br>Marcelo A. Moreira Contreras<b>2022</b></p>
+  </div>
+  </section>
 </main>
 <script src="../javascripts/script.js"></script>
