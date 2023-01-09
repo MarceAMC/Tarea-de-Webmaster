@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    position: fixed;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+    line-height: 65px;
+    padding-left: 8px;
+}
+
+.menu {
+    float: right;
+    line-height: 80px;
+    margin-right: 50px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin-right: -44px;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    padding: 0px 20px;
+    color: white;
+    transition: all 500ms ease;
+}
+
+.menu a:hover {
+    background: grey;
+    color: black;
+}
+
+.img-carrito {
+    width: 35px;
+    padding-top: 23px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.cajapadre {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 100%;
+
+
+}
+
+
+fieldset {
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(192, 192, 192);
+    border-image: initial;
+    align-items: center;
+    justify-content: center;
+    height: 40vw;
+    width: 80vh;
+    background-color: white;
+    border-radius: 57px 57px 57px 57px;
+    -webkit-border-radius: 57px 57px 57px 57px;
+    -moz-border-radius: 57px 57px 57px 57px;
+
+
+
+}
+
+.titulo-consulta {
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 15px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja-textarea {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.caja-boton {
+    display: flex;
+    justify-content: center;
+
+}
+
+.boton {
+    width: 30%;
+    height: 15%;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #333333;
+    background-color: #FFD27D;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 35px;
+}
+
+
+.caja-label {
+    padding-top: 5px;
+    width: 100%;
+
+
+}
+
+body {
+
+    background: url(../images/Recepción-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.forma-imput {
+    border-radius: 88px 88px 88px 88px;
+    padding: 8px;
+}
+
+footer {
+    height: 60px;
+    width: 100%;
+    background: black;
+    margin-top: 500px;
+}
+
+.towhatsapp {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    content: url(../images/whatsapp.png);
+}
+
+.tofacebook {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    content: url(../images/facebook.png);
+}
+
+.icono {
+    display: inline-grid;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.icono p {
+    color: white;
+}
+
+@media screen and (max-width: 420px) {
+    footer {
+        height: 60px;
+        width: 140%;
+        background: black;
+        margin-top: 26rem;
+    }
+
+    .menu {
+        float: right;
+        line-height: 80px;
+        margin-right: 210px;
+    }
+
+    body {
+        height: 82rem;
+    }
+
+    .cajapadre {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 4rem;
+    }
+
+    fieldset {
+        display: block;
+        height: 46rem;
+    }
+
+    form {
+        height: 150px;
+    }
+
+}
